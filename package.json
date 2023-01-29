@@ -1,0 +1,19 @@
+{
+  "name": "cp3010_lab2_project",
+  "version": "1.0.0",
+  "description": "Lab 2 Project for Node JS course CP3010",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasOquinn/CP3010.git"
+  },
+  "author": "Nicholas O'Quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasOquinn/CP3010/issues"
+  },
+  "homepage": "https://github.com/NicholasOquinn/CP3010#readme"
+}
