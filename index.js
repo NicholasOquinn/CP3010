@@ -87,6 +87,8 @@ const server = http.createServer((req, res) => {
     })
 });
 
+// use the port assigned as an environment variable or 8080
 const PORT = process.env.PORT || 8080;
 
+// Start listening for connections
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));

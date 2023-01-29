@@ -1,0 +1,62 @@
+
+Part 1
+Asynchronous callbacks enter the stack through the task queue. JavaScript can only execute one statement at a time,
+so it needs the event loop to be informed of when to execute which specific statement. When all synchronous code has
+finished running, the event loop checks the queue for any pending messages or tasks, adds them to the stack, and executes them.
+
+
+
+Part 2  Steps included with arrow bullets (or maybe question marks here) are related to repository setup. 
+
+
+•	Create a folder for your Node application using the mkdir command in the terminal.
+
+•	Open your newly created folder in VSC.
+
+•	Open a new terminal in VSC
+
+	If you wish to initialize your directory as a new git repository, you can run the git init command in the terminal.
+
+	Alternatively, you can click on the “Source Control” icon on the left hand side on the VSC window, and click on 
+    “Initialize Repository”.
+
+	You can now commit your changes and add a commit message along with it if desired.
+
+	Next, you’ll need to push your changes. If asked for to “Add Remote”, supply the URL of the repo you created in GitHub.
+
+	If you’re pushing the code for the first time, it will show a login window for GitHub.
+
+	You should now see your data inside your repository on GitHub
+
+•	Run the npm init command in your project directory to initialize the directory. Npm stands for Node Package Manager.
+
+•	This will execute a wizard to setup your package.json file that is being created. 
+
+•	Fill out any desired fields such as description, test command, git repository or author. Only Project Name and Version are 
+    considered required fields.
+
+•	If you forget to alter a certain field during the initialization process, you can always change things after the fact in 
+    the JSON file itself.
+
+•	Install any npm packages that you wish to use within your application. This will create either a dependencies object or 
+    a devDependencies object with you package.json file. Dependencies are packages that are required for the application to run. 
+    devDependencies are only used for development purposes.
+
+•	Installed packages get stored in the node_modules folder within your project.
+
+•	After installing any packages, another file called package-lock.json is created, which tracks all your different 
+    dependencies and its versioning.
+
+•	Next, we will create a basic web server by creating a JS file and using the require() method to import the http 
+    module.
+
+•	Next you will create a server object using the .createServer method.
+
+•	The server object has a request and response.
+
+•	Create a variable to store the assigned port number or another port number of your choosing as default.
+
+•	Use the listen method to get the server to start listening for connections.
+
+•	Run the node index command in the terminal to begin the server running on a specified port.
+
